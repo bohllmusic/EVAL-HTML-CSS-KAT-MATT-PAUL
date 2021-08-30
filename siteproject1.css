@@ -1,33 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
-nav {
-    display:flex;
-    justify-content: space-evenly;    
-    background-color: whitesmoke;
+div:nth-of-type(2){
+width:100%;
+}
+li {
+ display: inline;
 }
 
-li{
-    display: inline;
-    list-style: none;
 
-}
-
-ul:nth-of-type(1) button {
-   
-   justify-content: space-evenly;
-   font-family: 'Lora', serif;
-   font-weight: bold;
-   border: none;
-   font-size: 1em;
-   height: 100px;
-   width: 200px;
-}
 
 h1 {
     text-align: center;
-    font-family: 'Michroma', sans-serif
-
+    font-family: 'Michroma', sans-serif;
 }
-div:nth-of-type(2) {
-    display:grid;
+
+nav img {
+    height: 200px;
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
 }
