@@ -152,19 +152,18 @@ button{
 }
 
 .cssp2 {
-    animation: slide 4s;
+    animation: slide2 4s;
     animation-fill-mode: forwards;
 }
 
-@keyframes slide {
+@keyframes slide2 {
     0% {
         transform: translateX(2000px);
 
     }
 
     50% {
-        transform: translateX(-1800px);
-        
+        transform: translateX(2000px);
 
     }
 
@@ -200,27 +199,4 @@ button{
 }
 
 
-#translateY {
-    animation: slide 2sec;
-    animation-fill-mode: forwards;
-}
 
-@keyframes slide {
-    0% {
-        transform: translateY(-2000px);
-        
-
-    }
-
-    50% {
-        transform: translateY(-2000px);
-       
-
-    }
-
-    100%{
-        transform: translateY(0px);
-        
-
-    }
-}
