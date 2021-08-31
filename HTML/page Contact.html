@@ -4,22 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Page Contact.css">
+
     <title>Contact</title>
 </head>
 <body>
     <h1>Contact</h1>
-    <img src="" alt=""> <!--banniere-->
+
+
+    <img src="https://i.picsum.photos/id/902/2000/600.jpg?hmac=uZZlFXpkw-Ht8Dz7xDhhggMemQ8jA1TTXoGFl9cu5tU" alt=""> <!--banniere-->
     <nav> <!--nav latérale en vertical à gauche-->
         <ul> 
-            <li><a href=""><button><img src="" alt=""></button></a></li>
-            
-            <li><a href=""><button><img src="" alt=""></button></a></li>
-            <li><a href=""><button><img src="" alt=""></button></a></li>
-            <li><a href=""><button><img src="" alt=""></button></a></li>
+            <li><a href="lien.html"><button><img src="../page/Images_Logo/Logo/Logo_HTML.jpg"></button></a></li>   
+            <li><a href="lien.css"><button><img src="../page/Images_Logo/Logo/Logo_CSS.jpg"></button></a></li>   
+            <li><a href="lien.html"><button><img src="../page/Images_Logo/Logo/Logo_JS.png"></button></a></li>   
+            <li><a href="lien.html"><button><img src="../page/Images_Logo/Logo/Logo_API.jpg"></button></a></li>   
         </ul>
     </nav>
 
     <form action="" method="POST">
+        <legend>Envoyez nous un message!</legend>
+     
+
+<!-- Bannière-->
+<div>
+
+    <img id="accbanner" src="../Images/1687.jpg" alt="Bannière"/>
+</div>
+
+<!--MenuNav-->
+
+<div>
+    <nav>
+        <ul>
+            <li><a href="../HTML/Page HTML.html"><button><img class="accnavimg" src="../Images/Logo_HTML.jpg"></button></a></li>   
+            <li><a href="../HTML/page CSS.HTML"><button><img class="accnavimg" src="../Images/Logo_CSS.jpg"></button></a></li>   
+            <li><a href="../HTML/page Java Script.html"><button><img class="accnavimg" src="../Images/Logo_JS.png"></button></a></li>   
+            <li><a href="../HTML/"><button><img class="accnavimg" src="../Images/Logo_API.jpg"></button></a></li>   
+            <li><a href="../HTML/page Contact.html"><button><img class="accnavimg" src="../Images/10.jpg"></button></a></li>  
+           
+        </ul>
+    </nav>
+</div>
+
+
+    <form action="" method="POST">
+        <legend>Laissez-nous un messsage!</legend>
+        <label for="prénom">Prénom: </label> 
+        <input type="text" name="prénom" placeholder="Ex: Benoît" maxlength="20" minlength="2"> <br>
+            
+        <label for="Nom">Nom: </label>
+        <input type="text" name="nom" placeholder="Ex: Dupuy" maxlength="20" minlength="2" > <br>
+            
+        <label for="E-mail">E-mail:</label>
+        <input type="email" name="email" placeholder="Ex: monMail@FAI.com" max="20" minlength="2"><br>
+                    
+        <label for="Numéro de Téléphone">Numéro de téléphone: </label>
+        <input type="tel" name="numéro de téléphone" placeholder="Ex:06.00.00.00.00" ><br>
+        
+        <label for="commentaire">Envoyez-nous un message: </label> <br>
+
+        <textarea name="" id="textarea" cols="70" rows="10" placeholder="Votre message" ></textarea><br>
+
+        <input type="submit"value="Envoyer">
+        <input type="reset"value="Reprendre depuis le début">
+
+
+        <textarea name="" id="textarea" cols="70" rows="10" placeholder="un tres long texte" >Votre message</textarea><br>
+        <input type="button" name="submit" >
+
 
     </form>
 </body>
