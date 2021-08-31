@@ -252,3 +252,105 @@ audio {
     box-shadow: 2px 5px 2px;
     justify-self: center;
 }
+
+#cssart1{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+}
+
+#cssart2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: space-between;
+}
+
+#cssart3{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+}
+
+.cssp1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left : 100px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+
+.cssp2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin : 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cssp3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin : 20px;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.cssp1 {
+    animation: slide 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-2000px);
+        
+
+    }
+
+    50% {
+        transform: translateX(-2000px);
+       
+
+    }
+
+    100%{
+        transform: translateX(0px);
+        
+
+    }
+}
+
+.cssp2 {
+    animation: slide2 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translateX(2000px);
+
+    }
+
+    50% {
+        transform: translateX(2000px);
+
+    }
+
+    100%{
+        transform: translateX(0px);
+
+    }
+}
+
+.cssp3 {
+    animation: slide 5s;
+    animation-fill-mode: forwards;
+}
+
+footer {
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
