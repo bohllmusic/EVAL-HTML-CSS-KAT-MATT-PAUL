@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-
+/*kat accueil*/
 body {
     padding: 50px;
 }
@@ -81,6 +81,7 @@ button{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+/*matt page CSS*/
 
 #cssart1{
     display: flex;
