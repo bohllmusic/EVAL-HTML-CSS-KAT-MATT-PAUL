@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 /*kat accueil*/
 body {
@@ -11,6 +12,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 50px;
 }
 
 #LogoCSS {
@@ -25,6 +27,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin-top: 50px;
     text-decoration: underline;
+    color: black;
 }
 
 #banner2 {   
@@ -34,6 +37,7 @@ body {
     padding: 5px;
     font-size: 18px;
     margin-bottom: 50px;
+    color: #27409e;
 }
 
 h1 {
@@ -261,11 +265,31 @@ h1 {
 }
 
 h1 {
-    animation: fade 10s;
+    animation: fade2 10s;
     animation-fill-mode: forwards;
 }
 
-@keyframes fade {
+@keyframes fade2 {
+    from {
+        color: gainsboro;
+    }
+    50% {
+        color:#4464d1;
+    }
+
+
+    to {
+        color: #27409e;
+    }
+    
+}
+
+#banner2 {
+    animation: fade1 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade1 {
     from {
         color: gainsboro;
     }
@@ -282,7 +306,7 @@ h1 {
 
 
 
-#CSSLogo {
+#banner {
     animation: fade 10s;
     animation-fill-mode: forwards;
 }
@@ -292,12 +316,12 @@ h1 {
         color: gainsboro;
     }
     50% {
-        color:#4464d1;
+        color:black;
     }
 
 
     to {
-        color: #27409e;
+        color: black;
     }
     
 }
