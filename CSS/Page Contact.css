@@ -237,3 +237,32 @@ label, legend{
 legend{
     animation: animLegend 0.5s infinite alternate;
 }
+
+.contact {
+    display: flex;
+    align-items: center ;
+    justify-content: space-evenly;
+    background-color: transparent;
+    border: none;
+    }
+    
+    .email {
+    height: 300px;
+    }
+    
+    .linked {
+    height: 275px;
+    }
+    
+    .twitter {
+    height: 300px;
+    }
+    
+    .telephone {
+    background-color: transparent;
+    border: none;
+    font-family: "lato, sans serif";
+    font-size: 120px;
+    font-weight: 300;
+    color: rgb(103, 111, 119);
+    }
